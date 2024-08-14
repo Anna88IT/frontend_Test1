@@ -1,0 +1,128 @@
+
+
+.firstSlice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #495f4b;
+    margin: auto 0;
+    padding: 0;
+}
+.secondSlice {
+    width: 33.33%;
+    height: 66.66%;
+    background-color: #66837e;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.thirdSlice {
+    width: 66.66%;
+    height: 33.33%;
+    background-color: #9d4e2d;;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.forthSlice {
+    width: 33.33%;
+    height: 66.66%;
+    background-color: #dd9857;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.fifthSlice {
+    width: 66.66%;
+    height: 33.33%;
+    background-color: #9dabb6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.title{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+h1{
+    margin: 0;
+    font-size: 32px;
+    color: #65827d;
+}
+fieldset{
+    min-width: 70%;
+    min-height: 15%;
+    border: 2px solid #65827d;
+    overflow: hidden;
+    position: relative;
+    color: #65827d;
+    padding: 3px 15px;
+}
+legend{
+    margin: 0 15px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #65827d;
+}
+.buttons{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+button{
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 120px;
+}
+.cancelBtn{
+    border: 2px solid #65827d;
+    color: #65827d;
+}
+.loginBtn{
+    background-color: #65827d;
+    border: 2px solid #65827d;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    .form{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+    button{
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        width: 120px;
+    }
+}

@@ -1,0 +1,33 @@
+.footer{
+    height: 30px;
+    background-color: #36485e;
+    border: none;
+    margin: auto 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    line-height: 4px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        height: 40px;
+        background-color: #36485e;
+        border: none;
+        margin: auto 0;
+        padding: 0 30px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        line-height: 4px;
+    }
+    .text{
+        color: white;
+        font-size: 20px;
+    }
+}

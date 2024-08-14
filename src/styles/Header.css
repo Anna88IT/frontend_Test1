@@ -1,0 +1,117 @@
+nav{
+    height: 40px;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+    padding: 3px 20px;
+    align-items: center;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.user{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    /*background-color: #65827d;*/
+}
+i{
+    color: #66837e;
+    font-size: 35px;
+}
+.menu{
+    display: flex;
+    background-color: white;
+    height: 30px;
+    border: 1px solid #d5dddc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.home, .contact, .about{
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: #66837e;
+    line-height: 30px;
+    text-align: center;
+}
+.home:hover{
+    cursor: pointer;
+    background-color: #66837e;
+    color: white;
+  }
+.contact:hover{
+    cursor: pointer;
+    background-color: #66837e;
+    color: white;
+}
+.about:hover{
+    cursor: pointer;
+    background-color: #66837e;
+    color: white;
+}
+.login{
+    padding: 5px 12px;
+    background-color: #66837e;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    nav{
+        height: 50px;
+        border: none;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: auto 0;
+        padding: 3px 20px;
+        align-items: center;
+        font-size: 16px;
+    }
+    .user{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: none;
+
+    }
+    .container{
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2px;
+        align-items: center;
+        background-color: white;
+        height: 30px;
+        width: 28px;
+        border: 2px solid #66837e;
+        border-radius: 40%;
+        overflow: hidden;
+    }
+    .home, .contact, .about{
+        border: 2px solid #66837e;
+        width: 4px;
+        height: 4px;
+        border-radius: 50px;
+        color: white;
+    }
+    .login{
+       display: none;
+    }
+    i{
+        color: #66837e;
+        font-size: 45px;
+    }
+}
